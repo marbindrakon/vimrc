@@ -160,7 +160,7 @@ set ffs=unix,dos,mac
 set nobackup
 set nowb
 set noswapfile
-
+set number
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Text, tab and indent related
@@ -343,8 +343,7 @@ noremap <Leader>m mmHmt:%s/<C-V><cr>//ge<cr>'tzt'm
 map <leader>q :e ~/buffer<cr>
 
 " Toggle paste mode on and off
-map <leader>pp :setlocal paste!<cr>
-
+set pastetoggle=<F2>
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
